@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <AnchorPane layoutX="-1.0" layoutY="1.0" prefHeight="400.0" prefWidth="216.0">
+               <children>
+                  <Label layoutX="23.0" layoutY="3.0" prefHeight="43.0" prefWidth="88.0" text="Hopper " textFill="#0c2ec6">
+                     <font>
+                        <Font name="Arial Bold" size="23.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="26.0" layoutY="107.0" text="Dashboard" textFill="#0c2ec6">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="26.0" layoutY="148.0" text="Drugs" textFill="#222c5b">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="25.0" layoutY="191.0" text="History" textFill="#1e2a61">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="29.0" layoutY="234.0" text="Profile" textFill="#19286b">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="73.0" layoutY="32.0" prefHeight="43.0" prefWidth="131.0" text="Pharmacy" textFill="#0c2ec6">
+                     <font>
+                        <Font name="Arial Bold" size="23.0" />
+                     </font>
+                  </Label>
+                  <Line endX="18.0" endY="-0.5" layoutX="48.0" layoutY="57.0" startX="-33.0" startY="-0.5" stroke="#001eff" strokeWidth="2.0" />
+                  <Line endX="38.0" endY="-0.5" layoutX="143.0" layoutY="30.0" startX="-33.0" startY="-0.5" stroke="#001eff" strokeWidth="2.0" />
+               </children>
+            </AnchorPane>
+            <Label layoutX="259.0" layoutY="14.0" text="Dashboard" textFill="#18c321">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="499.0" layoutY="14.0" prefHeight="15.0" prefWidth="37.0" text="Time" textFill="#18c321">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="549.0" layoutY="14.0" prefHeight="15.0" prefWidth="37.0" text="Date" textFill="#18c321">
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font>
+            </Label>
+            <Line endX="248.0" layoutX="332.0" layoutY="51.0" startX="-100.0" stroke="#191d9e" />
+            <AnchorPane layoutX="231.0" layoutY="87.0" prefHeight="81.0" prefWidth="131.0">
+               <children>
+                  <Label layoutX="38.0" layoutY="41.0" text="Sales" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="412.0" layoutY="87.0" prefHeight="81.0" prefWidth="131.0">
+               <children>
+                  <Label layoutX="60.0" layoutY="36.0" text="Drugs" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
